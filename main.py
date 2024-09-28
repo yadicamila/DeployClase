@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from routers import routerDiabetes
+from routers import routerCultivo
 app=FastAPI()
 
-app.include_router(routerDiabetes.router)
+app.include_router(routerCultivo.router)
