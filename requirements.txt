@@ -6,5 +6,5 @@ fastapi-cors
 uvicorn
 gunicorn
 httptools
-mysql-connector
+
 
